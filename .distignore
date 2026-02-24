@@ -1,0 +1,19 @@
+# Exclude GitHub Actions workflows
+.github/
+
+# Exclude Git files
+.git/
+.gitignore
+.gitattributes
+
+# Exclude Assets folder (the action moves these to SVN /assets instead of /trunk)
+.wordpress-org/
+
+# Exclude Development/Build tools
+node_modules/
+package.json
+package-lock.json
+composer.json
+composer.lock
+phpunit.xml.dist
+tests/
