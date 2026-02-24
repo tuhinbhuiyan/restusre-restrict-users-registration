@@ -1,5 +1,6 @@
 # Exclude GitHub Actions workflows
 .github/
+.agents/
 
 # Exclude Git files
 .git/
@@ -17,3 +18,4 @@ composer.json
 composer.lock
 phpunit.xml.dist
 tests/
+MEMORY.md
