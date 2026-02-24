@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Users Registration by EmailVerifierPro.app 1.0.0\n"
+"POT-Creation-Date: 2025-06-05 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/class-admin.php
+msgid "Restrict Users Registration by EmailVerifierPro.app"
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Restrict Users Registration"
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Email Blacklist"
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Domain Blacklist"
+msgstr ""
+
+#: admin/class-admin.php
+msgid "User Signup Logs"
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Email validation is currently ACTIVE and will be enforced on all new registrations."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Email validation is currently INACTIVE. Registrations are not being checked."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Unauthorized."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Invalid email."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Action processed."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Failed to process."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Invalid %s."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Email added to blacklist."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Failed to add email."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Email removed from blacklist."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Failed to remove email."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Invalid domain."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Domain already blacklisted."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Domain added."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Domain removed."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Settings saved."
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Signup record removed."
+msgstr ""

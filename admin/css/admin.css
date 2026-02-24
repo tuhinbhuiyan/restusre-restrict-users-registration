@@ -1,0 +1,77 @@
+/*
+ * Admin CSS for Restrict Users Registration by EmailVerifierPro.app
+ * Styles for plugin admin pages and UI components.
+ *
+ * @author Tuhin Bhuiyan <https://tuhin.dev>
+ * @package RestrictUsersRegistration
+ */
+
+.restusre-settings-page {
+    max-width: 800px;
+}
+#restusre-blacklist-table {
+    margin-top: 2em;
+}
+
+/* For .mb-3 containers holding label and input to be in one line and aligned */
+#restusre-settings-form .mb-3:has(label):has(input) {
+  display: flex;
+  align-items: center;
+  /* Add gap if needed */
+  /* gap: 10px; */
+}
+
+/* For .form-check.form-switch.mb-3 containers to align switch and label */
+#restusre-settings-form .form-check.form-switch.mb-3 {
+  display: flex;
+  align-items: center;
+  /* Add gap if needed */
+  /* gap: 10px; */
+}
+
+#restusre-settings-form input[type=checkbox]:checked::before {
+    display: none;
+}
+
+/* Ensure flex container behavior, baseline alignment, and consistent gap for label/input sections */
+#restusre-settings-form .mb-3:has(label):has(input) {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+}
+
+/* Apply responsive width to text inputs (.form-control) within those flex containers */
+#restusre-settings-form .mb-3:has(label) > input.form-control {
+  flex-grow: 1; 
+  width: auto;
+  max-width: 400px; 
+}
+
+/*  tab styling Settings */
+#restusre-settings-tabs .nav-link {
+    color: #333;
+    background: #f8f9fa;
+    border: none;
+    border-radius: 0.5em 0.5em 0 0;
+    margin-right: 0.25em;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+    padding: 0.75em 1.5em;
+}
+#restusre-settings-tabs .nav-link:hover {
+    background: #e2e6ea;
+    color: #007b5e;
+}
+#restusre-settings-tabs .nav-link.active {
+    background: #2db742;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 2px 8px #2db74233;
+}
+#restusre-settings-tabs .nav-link:focus {
+    outline: 2px solid #2db742;
+    outline-offset: 2px;
+}
+#restusre-settings-tabs .nav-item {
+    margin-bottom: -1px;
+}
